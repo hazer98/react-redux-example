@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css'
 import {useDispatch, useSelector} from "react-redux";
-import {RootState} from "../slices";
 import {counterSlice} from "../slices/counterSlice";
+import {RootState} from "../app/store";
 
 function App() {
     // Get the count value from the state in the store
