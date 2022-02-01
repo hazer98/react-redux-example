@@ -1,13 +1,13 @@
 import {combineReducers, configureStore} from "@reduxjs/toolkit";
 import {CounterData, counterSlice} from "../slices/counterSlice";
 
-// Root state that combines all the state types in the store
+// Root state that combines all the state types from the slices
 export interface RootState {
     counter: CounterData;
 }
 
-// Root reducers that combines all the available reducers in the store
-export const rootReducers = combineReducers({
+// Root reducers that combines all the available reducers
+const rootReducers = combineReducers({
     counter: counterSlice.reducer
 })
 
