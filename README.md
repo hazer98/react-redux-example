@@ -1,2 +1,10 @@
-# react-redux-simplification
-Simplification of steps for using Redux slices with React
+# Simple React Redux example
+
+## Installation
+- `yarn`
+
+## Commands
+- `yarn start` run locally
+- `yarn build` build
+- `yarn test` test
+- `yarn eject` eject
